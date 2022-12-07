@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div > *{
+    margin: 15vh 0;
+    font-size: 2.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    animation: example linear 4s infinite;
+}
+
+button{
+    display: block;
+    margin: auto;
+    padding: 15px;
+    background-color: blue;
+    border: none;
+    color: white;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+@keyframes example{
+    0%{
+        color: aqua;
+    }
+
+    20%{
+        color: antiquewhite;
+    }
+
+    40%{
+        color: bisque;
+    }
+
+    60%{
+        color: blueviolet;
+    }
+
+    80%{
+        color: rgb(43, 226, 125);
+    }
+    
+    100%{
+        color:brown
+    }
+}

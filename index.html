@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script>
+            var colors = ['yellow', 'green', 'red', 'orange'];
+            var num = 0
+
+
+            function changeColour(){
+                document.body.style.backgroundColor = colors[num];
+                num++;
+                if (num > 3){
+                    num = 0;
+                }
+
+            }
+        </script>
+    </head>
+    <body>
+        <div>
+            <h2 class="first"> Click the button below to display the Hex code of the button</h2>
+            <h3 class="second"> The hex code of the color is <span></span>
+            <button onclick="changeColour()"> Click Me</button></h3>
+        </div>
+    </body>
+</html>
